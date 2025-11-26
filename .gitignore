@@ -12,9 +12,7 @@ ENV/
 
 # Model files (large binary files)
 models/*.pkl
-models/*.h5
 *.pkl
-*.h5
 
 # Data files
 *.data

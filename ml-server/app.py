@@ -21,7 +21,7 @@ from fastapi.middleware.cors import CORSMiddleware
 # CONFIG / PATHS
 # -------------------------
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-MODEL_DIR = os.path.join(os.path.dirname(BASE_DIR), "models")
+MODEL_DIR = os.path.join(BASE_DIR, "models")
 MRI_MODEL_PATH = os.path.join(MODEL_DIR, "model_bestmri.h5")
 VOICE_MODEL_PATH = os.path.join(MODEL_DIR, "voice_model.joblib")
 

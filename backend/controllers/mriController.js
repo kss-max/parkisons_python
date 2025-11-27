@@ -2,7 +2,7 @@ const axios = require('axios');
 const FormData = require('form-data');
 const fs = require('fs');
 
-const FASTAPI_URL = 'http://localhost:8000/predict/mri';
+const FASTAPI_URL = 'http://127.0.0.1:8000/predict/mri';
 
 /**
  * Handle MRI image upload and prediction

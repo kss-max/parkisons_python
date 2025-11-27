@@ -2,7 +2,7 @@ const axios = require('axios');
 const csvToJson = require('../utils/csvToJson');
 const fs = require('fs');
 
-const FASTAPI_URL = 'http://localhost:8000/predict/voice';
+const FASTAPI_URL = 'http://127.0.0.1:8000/predict/voice';
 
 /**
  * Handle voice CSV upload and prediction

@@ -36,3 +36,18 @@ Thumbs.db
 dist/
 build/
 *.egg-info/
+
+# Node.js
+node_modules/
+package-lock.json
+npm-debug.log*
+
+# Frontend build
+frontend/build/
+frontend/.eslintcache
+
+# Backend uploads
+backend/uploads/*.csv
+backend/uploads/*.png
+backend/uploads/*.jpg
+backend/uploads/*.jpeg

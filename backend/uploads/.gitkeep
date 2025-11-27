@@ -1,0 +1,11 @@
+# Uploads Directory
+
+This directory stores temporary uploaded files (CSV and images).
+Files are automatically deleted after processing.
+
+*.csv
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
